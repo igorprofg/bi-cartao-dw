@@ -472,3 +472,78 @@ Os demais titulares apresentam valores de estorno relativamente baixos, sugerind
 <h2>Todas as consultas SQL estão em: </h2>
 
 - [ConsultasSQL](./SQL/)
+
+<br>
+
+# Quarta fase do projeto 
+ <h2> Dashboards: </h2>
+
+# OBS: 
+
+<h1> O arquuivo pdf do dashboard encontra-se em:
+
+<br>
+
+[Dashboard](./dashboardCartao_bi.pdf) </h1>
+
+<h2> 1 - Gasto total por titular no período e por mês </h2>
+
+Descrição: Gráfico de séries temporais comparativo entre os titulares dos cartões (Brian Tyler, Charlize Theron, Eva Mendes e Vin Diesel).
+
+Objetivo: Analisar o comportamento de gasto individual mês a mês. É fundamental para identificar anomalias, como o alto volume de estornos (valores negativos) concentrados em um único titular.
+
+![](./graficos/grafico1.png)
+
+<h2>2 -  Gasto por categoria (Top 10)</h2>
+
+Descrição: Gráfico de barras verticais que segmenta o volume financeiro por tipo de serviço ou produto (Associação, Automotivo, Supermercado, etc.).
+
+Objetivo: Prover uma visão clara sobre o perfil de consumo, destacando quais setores do mercado retêm a maior parte do orçamento.
+
+![](./graficos/grafico2.png)
+
+<h2> 3 - Evolução mensal do total gasto </h2>
+
+Descrição: Gráfico de linha que apresenta a flutuação dos gastos ao longo dos meses do ano.
+
+Objetivo: Identificar meses de maior consumo e sazonalidade financeira. Permite observar picos de gastos (como em Julho) e quedas bruscas (como em Fevereiro).
+
+![](./graficos/grafico3.png)
+
+<h2> 4 - Comparativo entre titulares </h2>
+
+Descrição: Gráfico de barras simples focado no valor acumulado de gastos positivos por pessoa.
+
+Objetivo: Comparar diretamente o "poder de compra" ou o volume de gastos real entre os usuários, excluindo estornos para uma análise de consumo limpa.
+
+![](./graficos/grafico4.png)
+
+<h2> 5 - Principais estabelecimentos por valor</h2>
+
+Descrição: Gráfico combinado de colunas (valor total) e linha (quantidade de transações).
+
+Objetivo: Rankear os estabelecimentos onde houve maior concentração de capital. A linha de contagem ajuda a entender se o gasto alto é fruto de muitas compras pequenas ou poucas compras de alto valor.
+
+![](./graficos/grafico5.png)
+
+<h2> 6 - Comportamento de parcelamento</h2>
+
+Descrição: Gráfico de pizza que mostra a proporção financeira entre compras "À vista" e "Parceladas".
+
+Objetivo: Revelar o impacto financeiro de cada modalidade. No cenário atual, embora as compras à vista sejam mais frequentes, as parceladas representam uma fatia significativa do valor total.
+
+![](./graficos/grafico6.png)
+
+<h2>7 - Dia da semana com mais transações</h2>
+
+![](./graficos/grafico7.png)
+
+<h2> 8 - Estornos e créditos </h2>
+
+Descrição: Gráfico de colunas que isola apenas os valores negativos (créditos/devoluções) por titular.
+
+Objetivo: Destacar visualmente disparidades em devoluções. O uso da cor vermelha enfatiza casos críticos, como o volume atípico de estornos na conta do titular Vin Diesel.
+
+![](./graficos/grafico8.png)
+
+
