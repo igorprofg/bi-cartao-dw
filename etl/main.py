@@ -53,9 +53,6 @@ df_final["data_compra"] = pd.to_datetime(
 print(df_final.dtypes)
 
 
-engine = create_engine(
-    "postgresql+psycopg2://postgres:masterkey@localhost:5432/dw_cartao_credito"
-)
 
 
 # DIMENSÕES DE DATA
